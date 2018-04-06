@@ -1,0 +1,23 @@
+{
+  "name": "mkivikoski",
+  "version": "1.0.0",
+  "description": "Website for Mike Kivikoski",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkivikoski/mkivikoski.git"
+  },
+  "author": "Mike Kivikoski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkivikoski/mkivikoski/issues"
+  },
+  "homepage": "https://github.com/mkivikoski/mkivikoski#readme"
+}
