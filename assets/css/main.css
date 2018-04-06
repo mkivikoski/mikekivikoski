@@ -1,0 +1,109 @@
+/*
+* one class to rule them all
+* I don't put emojis in production CSS, but figured this made personal site a bit more fun
+*
+*/
+
+
+.kivikoski-says-hello-👋 {
+  color: #101010;
+  font: 1.2em/1.5 'Merriweather', serif;
+  padding: 2em;
+}
+
+  .who-are-you-🐛 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    margin: 1em 0;
+  }
+    .who-are-you-🐛__say-hi {}
+    .who-are-you-🐛__your-name-please {
+      display: block;
+    }
+
+  .quick-summary-🎉 {
+    background: #eee;
+    margin-left: -2em;
+    margin-right: -2em;
+    margin-bottom: 2em;
+    padding: 2em;
+  }
+
+  /* Notification callouts */
+  .notification-📬 {
+    background: #999;
+    border: 10px solid #ccc;
+    color: #fff;
+    margin-top: -4em;
+    margin-left: -1.5em;
+    margin-bottom: 2em;
+    padding: 1em;
+    width: 90%;
+  }
+
+  /* Work setup */
+  .grid--three-column {
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 10px;
+  }
+    .what-mike-likes-👨‍💻__example {}
+
+        /* static list items are often an exception I make when using nested children to style, to avoid using a lot of class="" in the HTML */
+        .what-mike-likes-👨‍💻__example li {
+          position: relative;
+        }
+
+          .what-mike-likes-👨‍💻__example li::before {
+            position: absolute;
+            left: -25px;
+          }
+
+          .what-mike-likes-👨‍💻__example--is-good-at li::before {
+            content: '👍';
+          }
+
+          .what-mike-likes-👨‍💻__example--is-okay-at li::before {
+            content: '👌';
+          }
+
+          .what-mike-likes-👨‍💻__example--is-bad-at li::before {
+            content: '👎';
+            top: 4px;
+          }
+
+
+
+  /* Typography */
+  .headline--main {
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 1.2;
+    margin-bottom: 1.3em;
+    text-transform: uppercase;
+  }
+
+  /* starter quick styles*/
+
+  section {
+    margin-bottom: 4em;
+  }
+
+  h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin: 0;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+    ul li {
+      list-style: none;
+    }
