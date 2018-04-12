@@ -31,12 +31,11 @@
     background: rgb(253,253,253);
     background: radial-gradient(circle, rgba(253,253,253,1) 0%, rgba(251,251,251,1) 100%);
     border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
     display: grid;
     grid-template-columns: 33% 66%;
     margin-left: -2em;
     margin-right: -2em;
-    margin-bottom: 2em;
+    margin-bottom: 0;
     padding: 2em 2em 0;
     position: relative;
   }
@@ -75,34 +74,75 @@
 
   /* Work setup */
   .grid--three-column {
-    display:grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-gap: 10px;
-  }
-    .what-mike-likes-👨‍💻__example {}
 
-        /* static list items are often an exception I make when using nested children to style, to avoid using a lot of class="" in the HTML */
-        .what-mike-likes-👨‍💻__example li {
-          position: relative;
+  }
+
+  .work-💻 {
+    background: rgb(140,18,226);
+    background: linear-gradient(180deg, rgba(140,18,226,1) 11%, rgba(133,18,226,1) 100%);
+    margin-left: -2em;
+    margin-right: -2em;
+    margin-bottom: 2em;
+    padding: 2em;
+
+  }
+    .work-💻  .headline--minor {
+      color: #1B0227;
+    }
+
+    .work-💻  .headline--major {
+      color: #1B0227;
+      max-width: 46em;
+    }
+
+    .what-mike-likes-👨‍💻 {
+      border-top: 1px solid #5e1690;
+      display:grid;
+      grid-template-columns: 30% 30% 30%;
+      grid-gap: 5%;
+      margin-top: 1em;
+      padding-top: 1.5em;
+    }
+
+      .what-mike-likes-👨‍💻__example {
+        background: #fff;
+        font-size: 0.9em;
+        -webkit-box-shadow: 0px 0px 20px 0px rgba(104,14,173,1);
+        -moz-box-shadow: 0px 0px 20px 0px rgba(104,14,173,1);
+        box-shadow: 0px 0px 20px 0px rgba(104,14,173,1);
+      }
+         .what-mike-likes-👨‍💻__headline {
+           background: rgb(253,253,253);
+           background: radial-gradient(circle, rgba(253,253,253,1) 0%, rgba(251,251,251,1) 100%);
+           border-top: 10px solid #5e1690;
+           border-bottom: 1px solid #ccc;
+           font-weight: 400;
+           padding: 1em;
+         }
+
+        .what-mike-likes-👨‍💻__list {
+          padding: 1em;
+          text-align: center;
         }
 
-          .what-mike-likes-👨‍💻__example li::before {
-            position: absolute;
-            left: -25px;
+        .notification-📬 {
+          border-left: 10px solid #5e1690;
+          background: #fff;
+          margin-top: 2em;
+          padding: 0.5em 1em;
+        }
+          .notification-📬  p {
+            max-width: 50em;
           }
 
-          .what-mike-likes-👨‍💻__example--is-good-at li::before {
-            content: '👍';
-          }
-
-          .what-mike-likes-👨‍💻__example--is-okay-at li::before {
-            content: '👌';
-          }
-
-          .what-mike-likes-👨‍💻__example--is-bad-at li::before {
-            content: '👎';
-            top: 4px;
-          }
+  .mike-talks-🎤 {}
+    .mike-talks-🎤__list {}
+      .mike-talks-🎤__talk {
+        margin-bottom: 1em;
+      }
+        .mike-talks-🎤__talk .headline--minor {
+          margin-bottom: 0;
+        }
 
 
 
@@ -130,13 +170,16 @@
     font-size: 1.3em;
     font-weight: 300;
     line-height: 1.4;
+    margin-top: 0;
+    margin-bottom: 1em;
   }
 
   .headline--minor {
     color: #757575;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.05em;
     font-weight: 400;
-    margin: 0;
+    margin: 0 0 1em;
     text-transform: uppercase;
   }
 
@@ -147,15 +190,12 @@
   }
 
  h3, h4, h5, h6{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
+    /* font-family: 'Montserrat', sans-serif;
+    font-weight: 200; */
     margin: 0;
   }
 
-  h3 {
-    text-transform: uppercase;
-    font-weight: 600;
-  }
+
 
   p {
     font-size: 0.9em;
@@ -166,7 +206,7 @@
   a:link,
   a:visited
   {
-    color: #8c12e2;
+    color: #7e09d0;
   }
 
 
