@@ -83,7 +83,7 @@
     margin-left: -2em;
     margin-right: -2em;
     margin-bottom: 2em;
-    padding: 2em 2em 0;
+    padding: 2em;
 
   }
     .work-💻  .headline--minor {
@@ -92,13 +92,16 @@
 
     .work-💻  .headline--major {
       color: #1B0227;
+      max-width: 46em;
     }
 
     .what-mike-likes-👨‍💻 {
+      border-top: 1px solid #5e1690;
       display:grid;
       grid-template-columns: 30% 30% 30%;
       grid-gap: 5%;
       margin-top: 1em;
+      padding-top: 1.5em;
     }
 
       .what-mike-likes-👨‍💻__example {
@@ -111,6 +114,7 @@
          .what-mike-likes-👨‍💻__headline {
            background: rgb(253,253,253);
            background: radial-gradient(circle, rgba(253,253,253,1) 0%, rgba(251,251,251,1) 100%);
+           border-top: 10px solid #5e1690;
            border-bottom: 1px solid #ccc;
            font-weight: 400;
            padding: 1em;
@@ -121,6 +125,15 @@
           text-align: center;
         }
 
+        .notification-📬 {
+          border-left: 10px solid #5e1690;
+          background: #fff;
+          margin-top: 2em;
+          padding: 0.5em 1em;
+        }
+          .notification-📬  p {
+            max-width: 50em;
+          }
 
   .mike-talks-🎤 {}
     .mike-talks-🎤__list {}
@@ -193,7 +206,7 @@
   a:link,
   a:visited
   {
-    color: #8c12e2;
+    color: #7e09d0;
   }
 
 
