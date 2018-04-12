@@ -122,6 +122,15 @@
         }
 
 
+  .mike-talks-🎤 {}
+    .mike-talks-🎤__list {}
+      .mike-talks-🎤__talk {
+        margin-bottom: 1em;
+      }
+        .mike-talks-🎤__talk .headline--minor {
+          margin-bottom: 0;
+        }
+
 
 
   /* Typography */
