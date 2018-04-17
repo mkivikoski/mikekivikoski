@@ -6,9 +6,17 @@
   "dependencies": {
     "http-server": "^0.11.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.8.3",
+    "nodemon": "^1.17.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "node-sass assets/sass/import.scss assets/css/main.css",
+    "watch:css": "nodemon -e scss -x \"npm run build:css\"",
+    "watch": "npm run watch:css",
+    "serve": "http-server",
+    "start": "npm run serve & npm run watch"
   },
   "repository": {
     "type": "git",

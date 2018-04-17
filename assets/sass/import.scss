@@ -1,0 +1,223 @@
+/*
+* one class to rule them all
+* I don't put emojis in production CSS, but figured this made personal site a bit more fun
+*
+*/
+
+@import 'variables/colors.scss';
+
+
+.kivikoski-says-hello-👋 {
+  color: $neutral-900;
+  font: 1.2em/1.5 'Merriweather', serif;
+  padding: 1em;
+}
+
+  .who-are-you-🐛 {
+
+  }
+    .who-are-you-🐛__say-hi {
+      border-bottom: 1px solid $neutral-400;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.5em;
+      padding-bottom: 0.5em;
+      margin: 0.5em 0 1em;
+    }
+    .who-are-you-🐛__your-name-please {
+      font-weight: 600;
+    }
+
+
+
+  .quick-summary-🎉 {
+    background: rgb(253,253,253);
+    background: radial-gradient(circle, rgba(253,253,253,1) 0%, rgba(251,251,251,1) 100%);
+    border-top: 1px solid $neutral-400;
+    display: grid;
+    grid-template-columns: 33% 66%;
+    margin-left: -2em;
+    margin-right: -2em;
+    margin-bottom: 0;
+    padding: 2em 2em 0;
+    position: relative;
+  }
+
+    .headshot {
+      /* border: 1px solid $neutral-400; */
+      border-radius: 100%;
+      margin: 2em auto 0;
+      max-width: 400px;
+      width: 80%;
+    }
+
+    .quick-summary-🎉 ::before {
+      width: 0;
+      height: 0;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-top: 20px solid $primary-100;
+      content: '';
+
+      position: absolute;
+      top: 0;
+      left: 50%;
+    }
+
+    .quick-summary-🎉__content {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-column-gap: 10px;
+      max-width: 45em;
+    }
+
+      .quick-summary-🎉__headline {
+        grid-column: 1 / 3;
+        grid-row: 1;
+      }
+
+
+
+  /* Notification callouts */
+  .notification-📬 {
+
+  }
+
+  /* Work setup */
+  .grid--three-column {
+
+  }
+
+  .work-💻 {
+    /* background: rgb(140,18,226);
+    background: linear-gradient(180deg, rgba(140,18,226,1) 11%, rgba(133,18,226,1) 100%); */
+    margin-left: -2em;
+    margin-right: -2em;
+    margin-bottom: 2em;
+    padding: 2em;
+
+  }
+
+    .work-💻  .headline--major {
+      max-width: 46em;
+    }
+
+    .what-mike-likes-👨‍💻 {
+      margin-top: 1em;
+    }
+
+      .what-mike-likes-👨‍💻__example {
+        font-size: 0.9em;
+      }
+         .what-mike-likes-👨‍💻__headline {
+           border-bottom: 1px solid $neutral-400;
+           display: inline-block;
+           font-weight: 400;
+         }
+          .what-mike-likes-👨‍💻__headline--icon {}
+
+        .what-mike-likes-👨‍💻__list {
+        }
+          .what-mike-likes-👨‍💻__item {
+            display: inline;
+          }
+            .what-mike-likes-👨‍💻__item:not(:last-child)::after{
+              content: ', ';
+            }
+
+        .notification-📬 {
+          border-left: 10px solid $primary-200;
+          background: #fff;
+          margin-top: 2em;
+          padding: 0.5em 1em;
+        }
+          .notification-📬  p {
+            max-width: 50em;
+          }
+
+  .mike-talks-🎤 {}
+    .mike-talks-🎤__list {}
+      .mike-talks-🎤__talk {
+        margin-bottom: 1em;
+      }
+        .mike-talks-🎤__talk .headline--minor {
+          margin-bottom: 0;
+        }
+
+
+  .articles-✏️ {}
+    .articles-✏️__categories {
+      margin-bottom: 2em;
+    }
+
+
+
+  /* Typography */
+  .headline--main {
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 1em;
+    max-width: 19em;
+  }
+
+    .headline--main-sub {
+      color: #757575;
+      font-family: 'Montserrat', sans-serif;
+      display: block;
+      font-weight: 400;
+      font-size: .5em;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+  .headline--major {
+    font-size: 1.3em;
+    font-weight: 300;
+    line-height: 1.4;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+
+  .headline--minor {
+    color: #757575;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    margin: 0 0 1em;
+    text-transform: uppercase;
+  }
+
+  /* starter quick styles*/
+
+  section {
+    margin-bottom: 4em;
+  }
+
+ h3, h4, h5, h6{
+    /* font-family: 'Montserrat', sans-serif;
+    font-weight: 200; */
+    margin: 0;
+  }
+
+
+
+  p {
+    font-size: 0.9em;
+    line-height: 1.6;
+  }
+
+  a,
+  a:link,
+  a:visited
+  {
+    color: #7e09d0;
+  }
+
+
+  ul {
+    padding-left: 0;
+  }
+    ul li {
+      list-style: none;
+    }
