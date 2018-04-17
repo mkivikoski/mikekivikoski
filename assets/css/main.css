@@ -4,6 +4,13 @@
 * I don't put emojis in production CSS, but figured this made personal site a bit more fun
 *
 */
+/*
+ *
+ *
+ Color variables
+ *
+ *
+ */
 .kivikoski-says-hello-👋 {
   color: #101010;
   font: 1.2em/1.5 'Merriweather', serif;
@@ -32,7 +39,7 @@
   position: relative; }
 
 .headshot {
-  /* border: 1px solid #ccc; */
+  /* border: 1px solid $neutral-400; */
   border-radius: 100%;
   margin: 2em auto 0;
   max-width: 400px;

@@ -4,9 +4,11 @@
 *
 */
 
+@import 'variables/colors.scss';
+
 
 .kivikoski-says-hello-👋 {
-  color: #101010;
+  color: $neutral-900;
   font: 1.2em/1.5 'Merriweather', serif;
   padding: 1em;
 }
@@ -15,7 +17,7 @@
 
   }
     .who-are-you-🐛__say-hi {
-      border-bottom: 1px solid #ccc;
+      border-bottom: 1px solid $neutral-400;
       font-family: 'Montserrat', sans-serif;
       font-size: 1.5em;
       padding-bottom: 0.5em;
@@ -30,7 +32,7 @@
   .quick-summary-🎉 {
     background: rgb(253,253,253);
     background: radial-gradient(circle, rgba(253,253,253,1) 0%, rgba(251,251,251,1) 100%);
-    border-top: 1px solid #ccc;
+    border-top: 1px solid $neutral-400;
     display: grid;
     grid-template-columns: 33% 66%;
     margin-left: -2em;
@@ -41,7 +43,7 @@
   }
 
     .headshot {
-      /* border: 1px solid #ccc; */
+      /* border: 1px solid $neutral-400; */
       border-radius: 100%;
       margin: 2em auto 0;
       max-width: 400px;
@@ -53,7 +55,7 @@
       height: 0;
       border-left: 20px solid transparent;
       border-right: 20px solid transparent;
-      border-top: 20px solid #8c12e2;
+      border-top: 20px solid $primary-100;
       content: '';
 
       position: absolute;
@@ -107,7 +109,7 @@
         font-size: 0.9em;
       }
          .what-mike-likes-👨‍💻__headline {
-           border-bottom: 1px solid #ccc;
+           border-bottom: 1px solid $neutral-400;
            display: inline-block;
            font-weight: 400;
          }
@@ -123,7 +125,7 @@
             }
 
         .notification-📬 {
-          border-left: 10px solid #5e1690;
+          border-left: 10px solid $primary-200;
           background: #fff;
           margin-top: 2em;
           padding: 0.5em 1em;
