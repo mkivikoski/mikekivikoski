@@ -40,6 +40,14 @@
     position: relative;
   }
 
+    .headshot {
+      /* border: 1px solid #ccc; */
+      border-radius: 100%;
+      margin: 2em auto 0;
+      max-width: 400px;
+      width: 80%;
+    }
+
     .quick-summary-🎉 ::before {
       width: 0;
       height: 0;
