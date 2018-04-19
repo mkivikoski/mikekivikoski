@@ -5,9 +5,15 @@
     border-bottom: 1px solid $neutral-400;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
-    padding-bottom: 0.5em;
     margin: 0.5em 0 1em;
+    padding-bottom: 0.5em;
+
   }
-  .who-are-you-🐛__your-name-please {
-    font-weight: 600;
-  }
+    .who-are-you-🐛__introduction {
+      color: $neutral-300;
+      font-weight: 200;
+    }
+    .who-are-you-🐛__your-name-please {
+      color: $neutral-900;
+      font-weight: 600;
+    }
