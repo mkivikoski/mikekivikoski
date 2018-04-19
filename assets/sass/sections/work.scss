@@ -1,0 +1,31 @@
+.work-💻 {
+  max-width: 60em;
+  margin-bottom: 4em;
+}
+
+  .work-💻  .headline--major {
+    max-width: 46em;
+  }
+
+  .what-mike-likes-👨‍💻 {
+    margin-top: 1em;
+  }
+
+    .what-mike-likes-👨‍💻__example {
+      font-size: 0.9em;
+    }
+       .what-mike-likes-👨‍💻__headline {
+         border-bottom: 1px solid $neutral-400;
+         display: inline-block;
+         font-weight: 400;
+       }
+        .what-mike-likes-👨‍💻__headline--icon {}
+
+      .what-mike-likes-👨‍💻__list {
+      }
+        .what-mike-likes-👨‍💻__item {
+          display: inline;
+        }
+          .what-mike-likes-👨‍💻__item:not(:last-child)::after{
+            content: ', ';
+          }

@@ -1,0 +1,12 @@
+.articles-✏️ {}
+  .articles-✏️__categories {
+    margin-bottom: 2em;
+
+    ul li {
+      margin-bottom: 1em;
+
+      @include media-query(screen-non-handhelds) {
+        margin-bottom: 0;
+      }
+    }
+  }

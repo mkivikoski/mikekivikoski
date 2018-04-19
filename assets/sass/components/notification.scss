@@ -1,0 +1,12 @@
+.notification-📬 {
+  background: radial-gradient(circle, #fdfdfd 0%, #fbfbfb 100%);
+  border: 1px solid $neutral-400;
+  border-left: 10px solid $primary-200;
+  background: #fff;
+  margin-top: 2em;
+  padding: 0.5em 1em;
+  max-width: 60em;
+}
+  .notification-📬  p {
+    max-width: 50em;
+  }
