@@ -58,10 +58,10 @@ ul li {
   text-transform: uppercase; }
 
 .notification-📬 {
+  background: #fdfdfd;
   background: radial-gradient(circle, #fdfdfd 0%, #fbfbfb 100%);
   border: 1px solid #ccc;
   border-left: 10px solid #5e1690;
-  background: #fff;
   margin-top: 2em;
   padding: 0.5em 1em;
   max-width: 60em; }
