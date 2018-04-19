@@ -63,7 +63,8 @@ ul li {
   border-left: 10px solid #5e1690;
   background: #fff;
   margin-top: 2em;
-  padding: 0.5em 1em; }
+  padding: 0.5em 1em;
+  max-width: 60em; }
 
 .notification-📬 p {
   max-width: 50em; }
@@ -177,6 +178,10 @@ ul li {
   .quick-summary-🎉__content--last {
     grid-column: 4 / 6;
     grid-row: 2; } }
+
+.work-💻 {
+  max-width: 60em;
+  margin-bottom: 4em; }
 
 .work-💻 .headline--major {
   max-width: 46em; }
