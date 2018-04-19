@@ -1,0 +1,64 @@
+h3, h4, h5, h6{
+   /* font-family: 'Montserrat', sans-serif;
+   font-weight: 200; */
+   margin: 0;
+ }
+
+
+
+   p {
+     font-size: 0.9em;
+     line-height: 1.6;
+   }
+
+   a,
+   a:link,
+   a:visited
+   {
+     color: #7e09d0;
+   }
+
+
+   ul {
+     padding-left: 0;
+   }
+     ul li {
+       list-style: none;
+     }
+
+     /* Typography */
+     .headline--main {
+       font-weight: 600;
+       font-size: 2em;
+       line-height: 1.2;
+       margin-top: 0;
+       margin-bottom: 1em;
+       max-width: 19em;
+     }
+
+       .headline--main-sub {
+         color: #757575;
+         font-family: 'Montserrat', sans-serif;
+         display: block;
+         font-weight: 400;
+         font-size: .5em;
+         letter-spacing: 0.05em;
+         text-transform: uppercase;
+       }
+
+     .headline--major {
+       font-size: 1.3em;
+       font-weight: 300;
+       line-height: 1.4;
+       margin-top: 0;
+       margin-bottom: 1em;
+     }
+
+     .headline--minor {
+       color: #757575;
+       font-family: 'Montserrat', sans-serif;
+       letter-spacing: 0.05em;
+       font-weight: 400;
+       margin: 0 0 1em;
+       text-transform: uppercase;
+     }     
