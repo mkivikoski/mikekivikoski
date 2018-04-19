@@ -1,0 +1,17 @@
+$screen-small: 320px;
+$screen-large: 1024px;
+
+@mixin media-query($media) {
+  @if $media == handhelds {
+    @media only screen and (max-width: $screen-small) { @content; }
+  }
+  @else if $media == screen-non-handhelds {
+    @media only screen and (min-width: $screen-small + 1) { @content; }
+  }
+  @else if $media == screen-medium {
+    @media only screen and (min-width: $screen-small + 1) and (max-width: $screen-large - 1) { @content; }
+  }
+  @else if $media == screen-wide {
+    @media only screen and (min-width: $screen-large) { @content; }
+  }
+}
