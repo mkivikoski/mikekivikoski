@@ -1,8 +1,4 @@
-/*
-* one class to rule them all
-* I don't put emojis in production CSS, but figured this made personal site a bit more fun
-*
-*/
+/* Hi folks 👋 */
 
 @import 'variables/colors.scss';
 @import 'variables/typography.scss';
@@ -12,34 +8,10 @@
 @import 'sections/header.scss';
 @import 'sections/who-are-you.scss';
 @import 'sections/summary.scss';
+@import 'sections/work.scss';
 @import 'sections/talks.scss';
 @import 'sections/articles.scss';
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* starter quick styles*/
-
-  // section {
-  //   margin-bottom: 4em;
-  // }
+section {
+  margin-bottom: 4em;
+}

@@ -1,9 +1,5 @@
 @charset "UTF-8";
-/*
-* one class to rule them all
-* I don't put emojis in production CSS, but figured this made personal site a bit more fun
-*
-*/
+/* Hi folks 👋 */
 h3, h4, h5, h6 {
   /* font-family: 'Montserrat', sans-serif;
    font-weight: 200; */
@@ -35,7 +31,7 @@ ul li {
 
 .headline--main-sub {
   color: #757575;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   display: block;
   font-weight: 400;
   font-size: .5em;
@@ -51,7 +47,7 @@ ul li {
 
 .headline--minor {
   color: #757575;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 0.05em;
   font-weight: 400;
   margin: 0 0 1em;
@@ -68,7 +64,7 @@ ul li {
 
 .kivikoski-says-hello-👋 {
   color: #101010;
-  font: 1.2em/1.5 'Merriweather', serif;
+  font: 1.2em/1.5 "Merriweather", serif;
   padding: 1em; }
 
 .who-are-you-🐛__say-hi {
@@ -121,6 +117,34 @@ ul li {
   grid-column: 1 / 3;
   grid-row: 1; }
 
+.work-💻 {
+  /* background: rgb(140,18,226);
+  background: linear-gradient(180deg, rgba(140,18,226,1) 11%, rgba(133,18,226,1) 100%); */
+  margin-left: -2em;
+  margin-right: -2em;
+  margin-bottom: 2em;
+  padding: 2em; }
+
+.work-💻 .headline--major {
+  max-width: 46em; }
+
+.what-mike-likes-👨‍💻 {
+  margin-top: 1em; }
+
+.what-mike-likes-👨‍💻__example {
+  font-size: 0.9em; }
+
+.what-mike-likes-👨‍💻__headline {
+  border-bottom: 1px solid #ccc;
+  display: inline-block;
+  font-weight: 400; }
+
+.what-mike-likes-👨‍💻__item {
+  display: inline; }
+
+.what-mike-likes-👨‍💻__item:not(:last-child)::after {
+  content: ', '; }
+
 .mike-talks-🎤__talk {
   margin-bottom: 1em; }
 
@@ -130,4 +154,5 @@ ul li {
 .articles-✏️__categories {
   margin-bottom: 2em; }
 
-/* starter quick styles*/
+section {
+  margin-bottom: 4em; }

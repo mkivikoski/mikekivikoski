@@ -1,3 +1,6 @@
+$font-serif: 'Merriweather', serif;
+$font-sans-serif: 'Montserrat', sans-serif;
+
 h3, h4, h5, h6{
    /* font-family: 'Montserrat', sans-serif;
    font-weight: 200; */
@@ -15,7 +18,7 @@ h3, h4, h5, h6{
    a:link,
    a:visited
    {
-     color: #7e09d0;
+     color: $primary-300;
    }
 
 
@@ -37,8 +40,8 @@ h3, h4, h5, h6{
      }
 
        .headline--main-sub {
-         color: #757575;
-         font-family: 'Montserrat', sans-serif;
+         color: $neutral-300;
+         font-family: $font-sans-serif;
          display: block;
          font-weight: 400;
          font-size: .5em;
@@ -55,10 +58,10 @@ h3, h4, h5, h6{
      }
 
      .headline--minor {
-       color: #757575;
-       font-family: 'Montserrat', sans-serif;
+       color: $neutral-300;
+       font-family: $font-sans-serif;
        letter-spacing: 0.05em;
        font-weight: 400;
        margin: 0 0 1em;
        text-transform: uppercase;
-     }     
+     }
