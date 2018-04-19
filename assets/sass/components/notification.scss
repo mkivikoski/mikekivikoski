@@ -1,8 +1,8 @@
 .notification-📬 {
-  background: radial-gradient(circle, #fdfdfd 0%, #fbfbfb 100%);
+  background: rgb(253,253,253);
+  background: radial-gradient(circle, rgba(253,253,253,1) 0%, rgba(251,251,251,1) 100%);
   border: 1px solid $neutral-400;
   border-left: 10px solid $primary-200;
-  background: #fff;
   margin-top: 2em;
   padding: 0.5em 1em;
   max-width: 60em;
