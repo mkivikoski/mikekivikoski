@@ -1,6 +1,10 @@
 .work-💻 {
-  max-width: 60em;
   margin-bottom: 4em;
+  @media screen and (min-width: $screen-giant) {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
   .work-💻  .headline--major {

@@ -9,10 +9,11 @@
   padding: 1em;
   position: relative;
 
+
+
   @include media-query(screen-non-handhelds) {
     display: grid;
     grid-template-columns: 33% 16.5% 16.5% 16.5% 16.5%;
-
   }
 
   &::before {
@@ -52,6 +53,10 @@
       @include media-query(screen-non-handhelds) {
         grid-column: 2 / 6;
         grid-row: 1;
+      }
+
+      @media screen and (min-width: $screen-giant) {
+          max-width: 900px
       }
     }
 

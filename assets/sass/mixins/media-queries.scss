@@ -1,6 +1,7 @@
 $screen-small: 320px;
 $screen-medium: 700px;
 $screen-large: 1024px;
+$screen-giant: 1200px;
 
 @mixin media-query($media) {
   @if $media == handhelds {
