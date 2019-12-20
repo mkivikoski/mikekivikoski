@@ -256,5 +256,20 @@ ul li {
       .articles-✏️__categories ul li {
         margin-bottom: 0; } }
 
+.cs-ezcater .wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative; }
+
+.cs-ezcater p {
+  color: #101010;
+  font: 1em/1.5 "Merriweather", Georgia, "Times New Roman", serif; }
+
+.cs-ezcater .highlights {
+  max-width: 710px; }
+
+.cs-ezcater img {
+  display: block; }
+
 section {
   margin-bottom: 4em; }
