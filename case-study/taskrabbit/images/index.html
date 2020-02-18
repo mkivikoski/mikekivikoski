@@ -1,0 +1,69 @@
+We tested  ve users with the current taskrabbit New Task work ow. The users were of various familiarities with the system to give us a broad range of testing. Two users were advanced, two were intermediates and one user was a beginner. All  ve users were asked to post speci c new tasks and were recorded doing them. Each user completed the  ve page wizard form along with the one page form. Three users completed the wizard  rst and the other two completed the one page form  rst. The test results con rmed some of the suspicions we had, showed us some items we hadn’t known about and displayed a trend among problem sections.
+All users completed the one page form successfully and quicker then the wizard form. They had an easier time skipping over not required sections, updating descriptions and getting the task posted. They spent less time overall, decreased their clicks and chances of errors. With some reorganization of the form, we recommend that the one page form be utilized and implemented into the taskrabbit New Task work ow.
+Below we have broken the form down into sections and describe some problems users have had along with recommendations for each section. After that we list all the items that we would like to include in the rebuilt form. Originally we had stated we would only do 4 to 7 items in the redesign, but after reviewing the test results and our recommendations we feel that we can provide everything in our list in our deliverables.
+User TesTiNg resUlTs aNd recommeNdaTioNs
+Task Description
+Users entered all the information they needed to convey within the Description and Details textareas; some also used this area as an introduction section. They entered their information for the task in sentences and paragraphs, opposed to list items. There, also, appeared to be general consideration towards the runner (which is really nice to see from your users).
+Task Type
+Four out of the Five users left the bid to Set by me and open to all runners (the
+default selection). Only one advanced user selected to have the task ‘open to bids’ (this user is also a runner).
+We suggest removing the task type checkboxs and instead have the task default to Set by me and open to all runners. Below the runner fee we would place a checkbox for Open to bid with a tooltip link for users that are not familiar with the feature. This give new users a clear default, making it easier to  nish working out their  rst task. The feature to have the Runner Fee Open to bid would still be easily available for advanced users that prefer this method, but would take less visual focus and processing for those not interested.
+Task Methods
+This section appears to be ok and working for users. Having the three most common sections check by default works well. The only negative is if the user only needs the Virtually or Larger vehicle checkbox, they have to uncheck the default three. The majority of users won’t have this problem so optimizing it to be ef cient for the majority of users.
+Payment/Fees section
+When users were given a de ned amount that they could spend, they all did a lot of mental math to  gure out the correct Runner fee and the Service fee that was then added along with the Expenses. A few users said they would like the Service fee to be included in the Runner fee and for it to be hidden from them. They stated they didn’t care how the money was split between the Runner and taskrabbit, only that they didn’t want to have to do the math. A few of the users noticed the calculation that happened in the sidebar, but of those users, the majority only noticed it after they had done the mental math. We suggest putting the calculations right next to the payment section and turning that sidebar into a sliding module. This module would travel with the user as they scroll down the page and would give them a summary of their task, including task name, overall price and assigned times.
+The calculator in the fees section would display the Expenses, Runner Fee and Service fee (if that isn’t integrated into the Runner Fee) and would show the total cost. A notice card will not be charged until the task is complete will be shown along with a total amount that is going be charged. The total amount charged to the card would be determined if the user was paying the Expenses in cash or credit.
+Since Promotion discounts applies to the totals within the Payment section, it makes organizational sense to group it within the Payment section. This way they can see that their promotion is taking effect by applying the discount to the total.
+Another problem that was encountered how much the typical runner fee is, they weren’t sure if $10 was too low or too high. It would be helpful to the user to suggest an average Runner fee price. The speed of the pick up/ completion rate of the task and pro tability for taskrabbit as criteria should help determine the best-suggested price for the user and taskrabbit.
+Assign and Complete Time
+Four of the  ve users were confused when asked to complete the Assigned
+
+by and Completed by time. We suggest having the Complete by time displayed  rst since it is clear to the user what that time is. When the user selects this date or time the Assign by time would dynamically change to half of what the Complete by time is easing confusion between the two (i.e. if Complete by time is 4 days, Assign would change to 2 days or if Complete is 8 hours, Assign would be 4 hours). This would allow the user to update the Assign by time if they would like to be noti ed sooner or later.
+Popups
+If the user clicks a help me link a pop up appears. If the user clicks another help me link without closing the popup, the popups content changes to re ect the new help me link’s respective content. If this popup is hidden by the browser the user may not realize the change, which happened to two of our users. We recommend that the links be changed to jQuery tooltips, and if users have JavaScript turned off, the help me text would be displayed at the bottom of the page.
+Locations
+Users that had only used taskrabbit a few times were a little unsure of what locations were and how they should be used. One user entered where they needed things delivered, then deleted it, unsure if it was correct. They then entered the information on where items should be picked up from, stated
+that didn’t matter and deleted that information as well. It would be helpful to have a user enter their home location the  rst time they post a task (this is for new users). This gives us three bene ts, (1) The user is introduced to locations and we can use introductory content for their  rst time, (2) it allows us to store their home address which we can use for billing address suggestions, and (3) it has the potential of helping to speed up their future tasks (because they have time to become familiar with the concept of locations thanks to our introductory content).
+Instead of link text, Remove this location we will place a Close [x] link at the top right of the module that will remove the location if the user needs it.
+If a user clicks Save this location, a small con rmation message should display next to the checkbox notifying the user that this location has been saved. (i.e. You have saved your location Of ce). This noti cation can be removed 20 to 30 seconds after appearing.
+Billing and Payment
+We didn’t do any testing on the Billing/Payment page because we didn’t have a development account. There are three things we do recommend for this page. (1) When the user enters their credit card digits the functionality selects what type of card they are using. This helps them  ll out the form faster and decreases the chance of errors. (2) The initial home address they enter should be suggested to them for their billing address, but still allow them the option to change or update it. If this information is correct it helps speed up the overall completion rate, if it is not correct the user can update their billing address easily from the billing page. (3) Display the sliding module that displays the task name, overall cost, times assigned along with an edit button or link that allows the user to go back to the previous page to update their task if they need to.
+
+oTher iTems TakeN iNTo coNsideraTioN
+Along with items the Users have brought to our attention, we have a few recommendations that will make the form easier to use and more cohesive.
+• Visual Hierarchy and Typography
+• All errors look and read like error messages
+• Labels are same font height and color
+• Help text is easily distinguishable
+• Help me links are easy to  nd. Error Messaging
+We’ll use the jQuery form validation plugin to do light validation when the User blurs the  eld on the client side. We can also use serverside validation to double check all  elds are correct. When a user hits next they will be shown a list of global errors. This consists of inputs that are either wrong or required. Error messages can be customized to re ect the light hearted tone that the other content on the site has.
+Top 3 reasoNs for recommeNdiNg oNe page form
+• Updating description of task when using wizard 4 of the 5 used the links in the breadcrumb, one user used the back button. After they updated the description, 4 of the 5 users then went through each page to con rm it was correct. This increases completion time and the chance that the user will dropoff.
+• Allows User to ensure they have entered everything correctly before they pay.
+• No page loads or extra buttons to click. This increases time and decreases chances of errors.
+everyThiNg iN aN awesome lisT
+• Create a one page form (technically two pages, billing information will be on its own page)
+• Reorganize the form - Organize content so it makes more sense. Promo code with payment section, task description with task name, etc.
+• Sliding description module (Contains: title, dates/time, total amount)
+• Remove type of bid and under expenses place, []Open fee to bid checkbox
+• Calculator next to expense/services/runner fee
+• Clearly display what is being charged to the card
+• Display service fee
+
+• First time user, prompt for home address
+• Locations, remove Remove from task and display [x] in the top corner instead
+• After user clicks, Save this location , give them visual feedback
+• Rework Times/Dates
+• Instead of popups, we’ll build tooltips.
+• Create Visual Hierarchy of headers and text
+• All labels the same typographic treatment
+• Error messages red Ajax validation
+• Use the home address as default billing address (if possible)
+• If previous is possible, display billing address for user to verify
+• Use card number to determine card type, reducing a click and possible error
+• Display summary of purchase in sidebar (perhaps reuse sliding description module) with an edit button to allow user to go back to update information
+iN coNclUsioN
+Thank you
+As previously agreed upon, after our meeting to discuss this Atedrake will design and build the necessary deliverables and help implement them. Along with the HTML and CSS for the form, we will provide the jQuery for the form validation, sliding module, noti cations, and any animation we need for the form (i.e. to show or hide case speci c information).
+We thank you for your time and work up to this point. We look forward to the design and development portions of this project.
+Mike and Kyle
