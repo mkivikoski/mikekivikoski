@@ -1,4 +1,11 @@
-.articles-✏️ {}
+.articles-✏️ {
+  @media screen and (min-width: $screen-giant) {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+}
   .articles-✏️__categories {
     margin-bottom: 2em;
 

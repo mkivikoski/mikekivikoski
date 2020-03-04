@@ -1,5 +1,12 @@
-.mike-talks-🎤 {}
-  .mike-talks-🎤__list {}
+.mike-talks-🎤 {
+  @media screen and (min-width: $screen-giant) {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+  .mike-talks-🎤__list {
+  }
     .mike-talks-🎤__talk {
       margin-bottom: 1em;
     }

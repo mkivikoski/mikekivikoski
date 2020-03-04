@@ -6,6 +6,12 @@
   margin-top: 2em;
   padding: 0.5em 1em;
   max-width: 60em;
+
+  @media screen and (min-width: $screen-giant) {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
   .notification-📬  p {
     max-width: 50em;

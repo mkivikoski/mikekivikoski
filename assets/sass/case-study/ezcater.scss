@@ -1,0 +1,34 @@
+// ezCater case study
+
+.cs-ezcater {
+
+  .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  p {
+    color: #101010;
+    font: 1em/1.5 "Merriweather", Georgia, "Times New Roman", serif;
+  }
+
+
+  .highlights {
+    max-width: 710px;
+  }
+  img {
+    display: block;
+    
+  }
+  // #ezcater-image-001 {
+  //   position: absolute;
+  //   left: 760px;
+  //   top: 160px;
+  // }
+  //
+  // #ezcater-image-003 {
+  //   display: block;
+  //   margin: 0 auto;
+  // }
+}

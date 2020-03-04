@@ -1,9 +1,19 @@
 /* Hi folks 👋 */
 
+
+// @import "tailwindcss/base";
+//
+// @import "tailwindcss/components";
+//
+// @import "tailwindcss/utilities";
+
+
 @import 'mixins/media-queries.scss';
 
 @import 'variables/colors.scss';
 @import 'variables/typography.scss';
+
+@import 'sections/footer.scss';
 
 @import 'components/notification.scss';
 
@@ -13,6 +23,8 @@
 @import 'sections/work.scss';
 @import 'sections/talks.scss';
 @import 'sections/articles.scss';
+
+@import 'case-study/ezcater.scss';
 
 section {
   margin-bottom: 4em;

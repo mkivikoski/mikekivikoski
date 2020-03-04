@@ -9,226 +9,310 @@
 
   <title>Mike Kivikoski - Product Designer and Developer</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,600" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/main.css">
+  <!-- <link rel="stylesheet" href="./assets/css/main.css"> -->
+  <link rel="stylesheet" href="./assets/css/tailwind-output.css">
+
+  <!-- <link rel="stylesheet" href="https://tailwindcss.com/assets/build/css/main.css?id=e994f5f9525b4219e81f"> -->
   <link rel="icon" href="ted-excellent.gif">
+
+  <style>
+    .videoWrapper {
+      	position: relative;
+      	padding-bottom: 56.25%; /* 16:9 */
+      	padding-top: 25px;
+      	height: 0;
+        max-height: 400px;
+      }
+      .videoWrapper iframe {
+      	position: absolute;
+      	top: 0;
+      	left: 0;
+      	width: 100%;
+      	height: 100%;
+      }
+  </style>
 </head>
 
-<body class="kivikoski-says-hello-👋">
 
-  <header class="who-are-you-🐛"><!--github pages//-->
+<body class="bg-gray-200">
 
-    <h6 class="who-are-you-🐛__say-hi">
-      <span class="who-are-you-🐛__introduction">
-       Hi, I&rsquo;m
-     </span>
-      <span class="who-are-you-🐛__your-name-please">
-         Mike Kivikoski.
-      </span>
-    </h6>
-
-    <h1 class="headline--main">
-      <span class="headline--main-sub">A Product Designer and Developer</span>
-      focusing on easy to use, device agnostic, and accessible experiences.
-    </h1>
+<div class="bg-purple-600 pb-40">
+  <header class="">
+    <div class="container mx-auto px-4 ">
+      <div class="flex flex-col sm:flex-row items-center justify-between py-6 relative">
+        <h3 class="text-2xl font-bold uppercase text-white"><a href="/" title="Go back to home screen">Mike Kivikoski</a></h3>
+        <nav class="hidden md:flex">
+            <span class="text-white  p-2 block mx-1 border-b-4 border-purple-700">Home</span>
+            <a href="./about.html" class="text-white hover:bg-purple-700 hover:underline  p-2 block mx-1 rounded">About</a>
+            <a href="/articles.html" class="text-white hover:bg-purple-700 hover:underline block p-2 mx-1 rounded">Articles</a>
+            <a class="bg-purple-800 hover:bg-purple-600 hover:underline text-white mb-0 pt-2 pb-0 px-4 rounded" href="mailto:mikekviikoski@gmail.com">Email Me</a>
+        </nav>
+        <button class="flex md:hidden flex-col absolute top-0 right-0 p-4 mt-5">
+            <span class="w-5 h-px mb-1 bg-white"></span>
+            <span class="w-5 h-px mb-1 bg-white"></span>
+            <span class="w-5 h-px mb-1 bg-white"></span>
+        </button>
+      </div>
+    </div>
   </header>
 
-  <main>
-    <section class="quick-summary-🎉">
-      <div class="headshot">
-        <img src="assets/images/kivikoski-headshot.jpeg" alt="Mike Kivikoski Headshot" class="headshot__avatar"/>
+  <div class="container mx-auto px-4">
+
+    <div class="flex mb-2 md:mb-4 py-4 md:py-8 lg:py-12">
+      <div class="w-full">
+        <h1 class="text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold lg:font-black leading-tight tracking-wide text-white">I help teams solve the difficult problems in Enterprise products.</h1>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="container mx-auto -mt-40 px-4">
+  <h5 class="text-sm uppercase mb-1 text-gray-100">Notable work</h5>
+
+  <div class="flex sm:flex-wrap items-center mb-4 rounded lg:shadow-lg bg-black">
+
+
+    <div class="w-full lg:w-3/5 relative bg-gray-100 p-4 md:p-8 lg:rounded-l order-last lg:order-none">
+      <div class="">
+        <p class="uppercase text-sm tracking-wide text-gray-700 font-bold">September, 2019 to March, 2020</p>
+        <h3 class="text-1xl md:text-2xl leading-tight my-4 font-black text-gray-800">Bose, an international leader in audio equipment, was creating a platform for Creators to build and share Augmented Reality Audio experiences.</h3>
+        <h4 class="text-1xl md:text-2xl leading-snug font-light mb-4 text-gray-700">In an emerging technology, there were a lot of questions on how AR Audio could be used. Bose wanted to solve that.</h4>
+        <p class="text-gray-800">Integrating with the existing Bose team, I was brought in to establish design best practices, user testing processes, create accessibility guidelines, and update the visual design to meet modern standards. I helped move feature definition away from hypotheticals, and used user feedback to help grow the AR Creator Tool.</p>
       </div>
 
-      <header class="quick-summary-🎉__headline">
-        <h5 class="headline--minor">
-          Background
-        </h5>
-        <h2 class="headline--major">
-          With a formal background in design, and 11 years of work experience in development, I help create and connect the dots from <b>Problem Identification</b>, <b>User Research</b>, <b>Interviews</b>, <b>Testing</b>, and <b>UX Flows</b>, through <b>Visual Design</b>, <b>UI Development</b> and <b>Code Integration</b>.
-        </h2>
+      <!-- <div class="mt-12">
+        <a href="#" class="bg-gray-300 hover:bg-purple-700 border-l-4 border-purple-800 text-gray-800 hover:text-white mb-0 py-4 px-6 rounded">Learn more about my work with ezCater</a>
+      </div> -->
+    </div>
 
-        <h2 class="headline--major">
-          I&rsquo;ve been fortunate enough to work on projects with <b>budgets in the seven figures</b>, <b>speak at conferences</b> around the States, and have had my work shipped to literally <b>millions of users</b>.
-        </h2>
-      </header>
+    <div class="w-full py-0 lg:w-2/5 order-first lg:order-none">
+      <img src="case-study/bose-ar/images/bose-ar-logo.png" alt="Bose AR logo" class="md:w-1/3 lg:w-1/2 ml-auto mr-auto " />
+    </div>
+  </div>
 
-      <div class="quick-summary-🎉__content--first">
-        <p>
-          I am currently a Senior Designer at <a href="https://cantina.co/" title="Cantina, a digital consulting agency in Boston">Cantina</a>, a digital consulting agency in Boston, MA; but I live in New Hampshire and work remotely. Slack, Zoom, and Gmail are everyday tools, along with gifs, puns and emojis. 🤗  I&rsquo;ve got private office space in our house and use a Jarvis standing desk daily, paired with a 27" monitor and Cheeseburger, the 2 year old Great Dane/Lab mix.
-        </p>
+  <div class="lg:flex items-center mb-4 rounded lg:shadow-lg bg-gray-900">
+    <div class="w-full py-12 lg:w-2/5 lg:py-0">
+      <img src="case-study/ezcater/images/ezcater-logo.png" alt="ezCater logo" class="w-1/2 md:w-1/3 lg:w-1/2 ml-auto mr-auto " />
+    </div>
 
-        <p>
-           Prior to Cantina, I spent 5 years running my own consulting studio, Atedrake, out of a collective workspace in Somerville, MA. Projects ranged from UX and Visual Design, to static UI, WordPress and Shopify development. Clients consisted of small local businesses, and larger agencies needing assistance with their clients.
-        </p>
+    <div class="w-full lg:w-3/5 relative bg-gray-100 p-4 md:p-8 lg:rounded-r">
+      <div class="">
+        <p class="uppercase text-sm tracking-wide text-gray-700 font-bold">April to July, 2019</p>
+        <h3 class="text-1xl md:text-2xl leading-tight my-4 font-black text-gray-800">ezCater, an online marketplace for corporate catering, was growing a new team to handle the entry funnel for new customers &mdash; their landing screens.</h3>
+        <h4 class="text-1xl md:text-2xl leading-snug font-light mb-4 text-gray-700">The rapidly-expanding company, valued at over $1.25b, was invested in understanding and presenting the correct content to users searching for business catering. </h4>
+        <p class="text-gray-800">ezCater reached out to Cantina to optimize this customer experience on mobile, tablet, and desktop. Using A/B testing, prototyping, component-based design, fast iterations, and metric definitions, I defined and lead the user experience work and user interface design of their landing screen types.</p>
       </div>
 
-      <div class="quick-summary-🎉__content--last">
-        <p>
-          At the end of 2014, I had the opportunity to create an instructional video with O&rsquo;Reilly Media, &ldquo;<a href="http://shop.oreilly.com/product/0636920035251.do" title="View the video order page at shop.oreilly.com">UI Development for Engineers</a>&rdquo;, that gives an introduction and overview to design and front-end development to developers unfamiliar with those concepts.
-        </p>
+      <!-- <div class="mt-12">
+        <a href="#" class="bg-gray-300 hover:bg-purple-700 border-l-4 border-purple-800 text-gray-800 hover:text-white mb-0 py-4 px-6 rounded">Learn more about my work with ezCater</a>
+      </div> -->
+    </div>
+  </div>
 
-        <p>
-          I&rsquo;ve also taught at the college level, teaching, <i>Introduction to Web Design</i>, <i>Introduction to Web Development</i>, and <i>Advanced Web Development</i>, at Endicott College, my alma mater, during the 2012 &dash; 2014 semesters in Beverly, MA.
-        </p>
+  <div class="px-2">
+    <div class="lg:flex -mx-4">
+      <div class="w-full lg:w-1/2 px-2 mb-4">
+        <div class="rounded-t md:h-64 py-12 lg:py-0 overflow-hidden bg-white flex content-center">
+          <img src="case-study/taskrabbit/images/taskrabbit-logo.svg" alt="task rabbit logo" class="ml-auto mr-auto w-1/2" />
+        </div>
+        <div class="ml-auto bg-gray-100 p-4 md:p-8 rounded-b relative">
+          <p class="uppercase text-sm tracking-wide text-gray-700 font-bold">January to March, 2010</p>
+          <h3 class="text-1xl md:text-2xl leading-tight my-4 font-black text-gray-800">A decade ago, I helped streamline TaskRabbit&rsquo;s checkout flow as they transitioned from small startup to nationally recognized product.</h3>
+          <h4 class="text-1xl md:text-2xl leading-snug font-light mb-4 text-gray-700">Before TaskRabbit was nationally known, they were a small startup named RunMyErrand, preparing for a big change.</h4>
+          <p class="text-gray-800">Using research, interviews, and testing: I helped reduce task postings from 6 screens down to a single screen &mdash; reducing posting time from several minutes to <90 seconds.</p>
 
-        <p>Want to chat? I&rsquo;d love to hear from you! Send me an email and we&rsquo;ll setup a Zoom. <a href="mailto:mikekivikoski@gmail.com" title="Email Mike" class="link--email">mikekivikoski@gmail.com</a></p>
-      </div>
-    </section>
+          <!-- <a href="#" class="bg-gray-300 hover:bg-purple-700 border-l-4 border-purple-800 text-gray-800 hover:text-white mb-0 py-4 px-6 rounded">Learn more about my work with TaskRabbit</a> -->
 
-
-
-    <section class="work-💻">
-      <h5 class="headline--minor">Work</h5>
-      <h3 class="headline--major">I&rsquo;ve worked on projects with user bases greater than 7 million, IPOs with tens of millions on the table, and companies with gross revenue in the billions; while being humbled to have worked with dozens of small companies that have trusted me with their digital presence. </h3>
-
-      <p>
-        I helped create and build <a href="https://participant.empower-retirement.com/participant/#/login" title="Empower, 401k Retirement plan">Empower&rsquo;s</a> user interface and accessibility updates.
-        I designed <a href="https://www.connection.com/" title="Connection, a physical product IT company">Connection&rsquo;s</a> checkout flow using user interviews, flows and interactive prototypes.
-        I designed and built <a href="https://www.taskrabbit.com/" title="TaskRabbit, an online marketplace for local labor">TaskRabbit&rsquo;s</a> task creation form, with data from user interviews and tests, when they transitioned from RunMyErrand and were prepping for San Francisco.
-        I built several high-fidelity prototypes for processing and registering new users for the <a href="https://www.goinvo.com/enterprise/dnc/" title="Involution Studios case study on the DNC project"> Democratic National Committee</a>.
-        I developed the responsive experience for <a href="https://www.quoddy.com/" title="Quoddy, a custom shoemaker in Maine">Quoddy</a> on Shopify, and created the
-        responsive redesign built on WordPress for <a href="https://www.centralsquaretheater.org/" title="CST is a small theater located in Cambridge, MA">Central Square Theater</a>.</p>
-
-      <h4>Due to the nature of my consulting work, I&rsquo;m not able to post a lot of work publicly.<br />A portfolio is available upon request.</h4>
-
-      <div class="what-mike-likes-👨‍💻">
-        <div class="what-mike-likes-👨‍💻__example what-mike-likes-👨‍💻__example--is-good-at">
-          <h4 class="what-mike-likes-👨‍💻__headline">
-            Areas I work in
-          </h4>
-          <ul class="what-mike-likes-👨‍💻__list">
-            <li class="what-mike-likes-👨‍💻__item">User and Project Research</li>
-            <li class="what-mike-likes-👨‍💻__item">User Interviews</li>
-            <li class="what-mike-likes-👨‍💻__item">User Flows</li>
-            <li class="what-mike-likes-👨‍💻__item">Design Sprints</li>
-            <li class="what-mike-likes-👨‍💻__item">Visual Design</li>
-            <li class="what-mike-likes-👨‍💻__item">Design Systems</li>
-            <li class="what-mike-likes-👨‍💻__item">HTML, CSS / Sass</li>
-            <li class="what-mike-likes-👨‍💻__item">CSS Architecture</li>
-            <li class="what-mike-likes-👨‍💻__item">Accessibility</li>
-            <li class="what-mike-likes-👨‍💻__item">Performance</li>
-            <li class="what-mike-likes-👨‍💻__item">Typography</li>
-          </ul>
         </div>
       </div>
 
+      <div class="w-full lg:w-1/2 px-2 mb-4">
+        <div class="rounded-t md:h-64 py-12 lg:py-0 overflow-hidden bg-gray-900 flex content-center">
+          <img src="case-study/healthcaresource/images/hcs-logo.svg" alt="HealthCareSource logo" class="ml-auto mr-auto w-1/2" />
+        </div>
+        <div class="ml-auto bg-gray-100 p-4 md:p-8 rounded-b relative">
+          <p class="uppercase text-sm tracking-wide text-gray-700 font-bold">October, 2018 to March, 2019</p>
+          <h3 class="text-1xl md:text-2xl leading-tight my-4 font-black text-gray-800">HealthCareSource, a multi-million dollar healthcare recruiting company, wanted to create a new standard for digital tools in their industry.</h3>
+          <h4 class="text-1xl md:text-2xl leading-snug font-light mb-4 text-gray-700">This large enterprise wanted to create an easier and more efficient process for recruiting healthcare professionals.</h4>
+          <p class="text-gray-800">I led the visual design portion of the ideation, research and design of this greenfield application. Using interviews, prototyping and fast iterations, we created a streamlined and efficient prototype.</p>
 
-      <div class="notification-📬">
-        <p>While I work in the front-end/user interface of products, I have experience working within applications written in various languages and frameworks. Including, in no particular order: JavaScript, Node, Angular, Python, PHP, WordPress, Shopify, and Ruby on Rails.</p>
+          <!-- <a href="#" class="bg-gray-300 hover:bg-purple-700 border-l-4 border-purple-800 text-gray-800 hover:text-white mb-0 py-4 px-6 rounded">Learn more about my work with HealthCareSource</a> -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mb-4">
+    <p class="text-sm text-gray-700 text-center">Due to the nature of consulting work, not all work is available for the public.</p>
+  </div>
+
+
+  <div class="flex mb-8">
+
+    <div class="w-full lg:w-2/3 ml-auto mr-auto mt-40 relative bg-white rounded p-4 md:p-8 shadow-lg text-gray-800">
+      <div class="mb-6">
+        <img src="assets/images/kivikoski-headshot.jpeg" alt="Mike Kivikoski Headshot" class="ml-auto mr-auto -mt-40 rounded-full bg-gray-100 p-2 w-full sm:w-1/3 shadow-lg"/>
       </div>
 
-    </section>
+      <h3 class="text-1xl md:text-2xl leading-tight font-semibold text-gray-800 mb-4 w-5/6">I&rsquo;ve been fortunate enough to work on projects with budgets in the seven figures, speak at conferences around the States, and have had my work shipped to literally millions of users.</h3>
 
-    <section class="mike-talks-🎤">
-      <h3>Selected talks, workshops, podcasts and media</h3>
-      <ul class="mike-talks-🎤__list">
+      <p class="mb-6">With over twelve years of professional software experience, and a Bachelor of Fine Arts in design, I solve difficult problems in Enterprise level software.
+        I am proficient with <b>Problem Identification</b>, <b>User Research, Interviews &amp; Testing</b>, and <b>UX Flows</b>. The depth of my knowledge and skills are in <b>Visual Design</b>, <b>UI Development</b> and <b>Code Integration</b>.</p>
 
-        <li class="mike-talks-🎤__talk">
-          <h5 class="headline--minor">Cantina Workshop &mdash; Boston, MA, August 2017</h5>
-          <a href="https://www.youtube.com/watch?v=Sm_60YPrPzk" title="A workshop from Cantina" class="headline--major">Legitimizing Design Thinking in Large Organizations</a>
-        </li>
-        <li class="mike-talks-🎤__talk">
-          <h5 class="headline--minor">CascadiaJS &mdash; Seattle, WA, August 2016</h5>
-          <a href="https://www.youtube.com/watch?v=IMJ3fw4JqPI" title="My talk in front of 300+ great people" class="headline--major">CSS Pseudo</a> (<a href="https://speakerdeck.com/mkivikoski/css-pseudo" title="View the slides on speakerdeck.com for CSS Pseudo">Slides</a>)
-        </li>
-        <li class="mike-talks-🎤__talk">
-          <h5 class="headline--minor">BostonCSS &mdash; Boston, MA, June 2016</h5>
-          <a href="https://www.youtube.com/watch?v=rPDJcQGrKIg" title="The local meetup version of the talk" class="headline--major">CSS Pseudo</a>
-        </li>
-        <li class="mike-talks-🎤__talk">
-          <h5 class="headline--minor">NYC Creative Tech Week &mdash; New York City, May 2016</h5>
-          <span class="headline--major">Evolving Web Applications with Module Components</span>
-        </li>
-        <li class="mike-talks-🎤__talk">
-          <h5 class="headline--minor">Great Wide Open &mdash; Atlanta, GA, March 2016</h5>
-          <span class="headline--major">Evolving Web Applications with Module Components</span>
-        </li>
-        <li class="mike-talks-🎤__talk">
-          <h5 class="headline--minor">Full Stack Toronto &mdash; Toronto, ON, Canada, November 2015</h5>
-          <a href="https://www.youtube.com/watch?v=ev3AtyAlwIQ" title="Watch the video" class="headline--major"> Evolving Web Applications with Module Components</a>
-        </li>
-        <li class="mike-talks-🎤__talk">
-          <h5 class="headline--minor">HTML5 Developer Conference &mdash; San Francisco, October 2015</h5>
-          <span class="headline--major">Evolving Web Applications with Module Components</span>
-        </li>
-        <li class="mike-talks-🎤__talk">
-          <h5 class="headline--minor">Full Stack NH &mdash; Portsmouth, NH, June 2015</h5>
-          <span class="headline--major">Design in the browser</span>
-        </li>
-        <li class="mike-talks-🎤__talk">
-          <h5 class="headline--minor">O&rsquo;Reilly media &mdash; October, 2014</h5>
-          <a href="http://shop.oreilly.com/product/0636920035251.do" title="Visit shop.oreilly.com to purchase" class="headline--major">UI Introduction for Engineers</a>
-        </li>
-        <li class="mike-talks-🎤__talk">
-          <h5 class="headline--minor">Creative Mornings &mdash; Boston, MA, March 2012</h5>
-          <a href="https://vimeo.com/41222601" title="Recording of the talk (sorry for audio quality)" class="headline--major">Taking the plunge, quit your job for self employment</a>
-        </li>
-        <li class="mike-talks-🎤__talk">
-          <h5 class="headline--minor">Boston Ignite &mdash; Boston, MA, April 2012</h5>
-          <a href="https://www.youtube.com/watch?v=VHs7n4xFO4w" title="The quick 5 minute lighting talk" class="headline--major">Taking the plunge, quit your job for self employment</a>
-        </li>
-      </ul>
-
-      <div class="notification-📬">
-        <p>I occasionally post podcasts for Design, Build, Test, Repeat at <a href="http://dbtr.fm" title="Listen to the Design, Build, Test, Repeat podcast">dbtr.fm</a></p>
+      <div class="">
+        <a href="/about.html" title="Learn more about Mike Kivikoski" class="bg-purple-800 hover:bg-purple-700 hover:underline text-white text-sm py-2 px-4 rounded whitespace-no-wrap">Learn more about me</a>
       </div>
-    </section>
+    </div>
+  </div>
+
+  <div class="mb-4 mt-4">
+    <div class="flex flex-wrap bg-white rounded shadow-lg">
+      <header class="w-full bg-gray-300 rounded-t p-4">
+        <h3 class="text-1xl md:text-2xl text-center font-bold text-gray-800">Featured Talks &amp; Media</h3>
+      </header>
+
+      <div class="lg:w-1/3 pt-4 md:pt-8 py-8 px-4 md:px-8">
+
+        <h5 class="uppercase text-sm tracking-wide text-gray-700 font-bold">CascadiaJS &mdash; Seattle, WA, Aug 2016</h5>
+
+        <p class="my-2 text-2xl font-bold text-gray-800">CSS Pseudo</p>
+
+        <p class="text-gray-700 mb-4">This talk was part of a 2-day single track conference in Seattle, WA with 300+ in attendance. Learn practical uses for over 35 pseudo-classes and pseudo-elements. Starting with the basics, you&rsquo;ll quickly advance to use cases that apply to positioning, text, content, and get a glimpse at some (hopeful) future selectors.</p>
+
+        <a class="bg-purple-800 hover:bg-purple-700 hover:underline text-white text-sm py-2 px-2 mb-2 rounded whitespace-no-wrap" href="https://www.youtube.com/watch?v=IMJ3fw4JqPI" title="CSS Pseudo talk, in front of 300+ great people">Watch on YouTube</a>
+        <a class="bg-purple-800 hover:bg-purple-700 hover:underline text-white text-sm py-2 px-2 mb-2 rounded whitespace-no-wrap" href="https://speakerdeck.com/mkivikoski/css-pseudo" title="View the slides on speakerdeck.com for CSS Pseudo">CSS Pseudo Slides </a>
+      </div>
+
+      <div class="border-t lg:border-0 lg:w-1/3 pt-4 md:pt-8 py-8 px-4 md:px-8">
+
+        <h5 class="uppercase text-sm tracking-wide text-gray-700 font-bold">O&rsquo;Reilly media &mdash; Oct 2014</h5>
+
+        <p class="my-2 text-2xl font-bold text-gray-800">UI Development for Engineers</p>
+
+        <p class="text-gray-700 mb-4">Video series with O&rsquo;Reilly Media that introduces developers to design concepts and front-end development. The course teaches views how to create UI design mockups and then make them real, with production ready markup.</p>
+
+        <a class="bg-purple-800 hover:bg-purple-700 hover:underline text-white text-sm py-2 px-2 rounded whitespace-no-wrap" href="http://shop.oreilly.com/product/0636920035251.do" title="Visit shop.oreilly.com to purchase">View on O&rsquo;Reilly.com</a>
+      </div>
+
+      <div class="border-t lg:border-0 lg:w-1/3 pt-4 md:pt-8 py-8 px-4 md:px-8">
+
+        <h5 class="uppercase text-sm tracking-wide text-gray-700 font-bold">Creative Mornings &mdash; Mar 2012</h5>
+
+        <p class="my-2 text-2xl font-bold text-gray-800">Taking the plunge</p>
+
+        <p class="text-gray-700 mb-4">This Creative Mornings Boston talk included Highlights, tips, and tricks for folks looking to become self-employed. I discussed processes, myths, and methods that help make a successful transition. Prep work involved, how to mitigate risk, and how to transition successfully; as I learned over the course of my 5 years of running a small consulting business.</p>
+
+        <a class="bg-purple-800 hover:bg-purple-700 hover:underline text-purple-100 text-sm py-2 px-2 rounded whitespace-no-wrap" href="https://creativemornings.com/talks/mike-kivikoski/1" title="Mike Kivikoski at Creative Mornings, Boston">Watch on YouTube</a>
+      </div>
+
+      <div class="w-full bg-gray-100 rounded-b p-2">
+        <a href="/about.html#talks" class="bg-purple-800 hover:bg-purple-700 hover:underline text-white text-sm py-2 px-4 rounded md:float-right whitespace-no-wrap" title="View a list of all of Mike's previous talks">View more talks</a>
+      </div>
+
+    </div>
+  </div>
 
 
-    <section class="articles-✏️">
-      <h3>Articles and thoughts</h3>
-      <ul>
-        <li class="articles-✏️__categories">
-          <h5 class="headline--minor">Design</h5>
-          <ul>
-            <li><a href="https://cantina.co/design-first-thinking-in-large-organizations/" title="Read the post at cantina.co" class="headline--major">Design First Thinking in Large Organizations</a></li>
-            <li><a href="https://cantina.co/organizational-buy-in-on-responsive-design/" title="Read the post at cantina.co" class="headline--major">Organizational Buy In On Responsive Design</a></li>
-            <li><a href="https://medium.com/@mikekivikoski/an-easier-way-to-find-users-for-user-testing-on-new-products-e2491d0bfdaf" title="Read the post on Medium" class="headline--major">An easier way to find users for user testing</a></li>
-            <li><a href="https://medium.com/@mikekivikoski/lets-make-user-testing-even-easier-b828d354fe81" title="Read the post on Medium" class="headline--major">Let&rsquo;s Make User Testing Even Easier</a></li>
-            <li><a href="https://medium.com/@mikekivikoski/dark-patterns-ruin-great-services-b81aae4b081b" title="Read the post on Medium" class="headline--major">Dark Patterns Ruin Great Services</a></li>
-            <li><a href="https://medium.com/@mikekivikoski/spend-1-save-99-3ecc3703f6e2" title="Read the post on Medium" class="headline--major">Spend $1, Save $99</a></li>
-          </ul>
-        </li>
-        <li class="articles-✏️__categories">
-          <h5 class="headline--minor">Development</h5>
-          <ul>
-            <li><a href="https://cantina.co/modular-css-atomic-design-in-the-enterprise/" title="Read the post at cantina.co" class="headline--major">Modular CSS: Atomic Design in the Enterprise</a></li>
-            <li><a href="https://medium.com/@mikekivikoski/abc-always-be-continuous-integration-d3a3cb4da419" title="Read the post on Medium" class="headline--major">ABC &mdash; Always Be Continuous integration</a></li>
-            <li><a href="https://medium.com/@mikekivikoski/laying-out-the-foundation-on-a-new-project-d4d76a6c93a3" title="Read the post on Medium" class="headline--major">Laying the foundation for a new project</a></li>
-            <li><a href="https://cantina.co/delivering-responsive-at-scale/" title="Read the post at cantina.co" class="headline--major">Delivering Responsive at Scale</a></li>
-          </ul>
-        </li>
+  <div class="px-2 mt-8 border-b-4  pb-4">
+    <div class="flex flex-wrap -mx-4 text-gray-600">
 
-        <li class="articles-✏️__categories">
-          <h5 class="headline--minor">Misc.</h5>
-          <ul>
-            <li><a href="https://medium.com/@mikekivikoski/failure-30e09cc3f357" title="Read the post on Medium" class="headline--major">Failure</a></li>
-            <li><a href="https://medium.com/@mikekivikoski/ideal-employment-2b2c61c626eb" title="Read the post on Medium" class="headline--major">Ideal Employment</a></li>
-            <li><a href="https://medium.com/@mikekivikoski/creating-a-podcast-f8d6b1057c8c" title="Read the post on Medium" class="headline--major">Creating a Podcast</a></li>
-          </ul>
-        </li>
+      <header class="w-full px-2 py-4">
+        <h3 class="text-2xl font-bold text-gray-600">Capabilities</h3>
+      </header>
+
+      <div class="w-full sm:w-1/2 lg:w-1/5 mb-4 px-2">
+        <div class="hover:bg-white bg-gray-100 border-l-4 border-gray-400 hover:shadow-lg rounded p-4 text-gray-800">
+          User Research
+        </div>
+      </div>
+
+      <div class="w-full sm:w-1/2 lg:w-1/5 mb-4 px-2">
+        <div class="hover:bg-white bg-gray-100 border-l-4 border-gray-400 hover:shadow-lg rounded p-4 text-gray-800">
+          User Flows
+        </div>
+      </div>
+
+      <div class="w-full sm:w-1/2 lg:w-1/5 mb-4 px-2">
+        <div class="hover:bg-white bg-gray-100 border-l-4 border-gray-400 hover:shadow-lg rounded p-4 text-gray-800">
+          Design Sprints
+        </div>
+      </div>
+
+      <div class="w-full sm:w-1/2 lg:w-1/5 mb-4 px-2">
+        <div class="hover:bg-white bg-gray-100 border-l-4 border-gray-400 hover:shadow-lg rounded p-4 text-gray-800">
+          Visual Design
+        </div>
+      </div>
+
+      <div class="w-full sm:w-1/2 lg:w-1/5 mb-4 px-2">
+        <div class="hover:bg-white bg-gray-100 border-l-4 border-gray-400 hover:shadow-lg rounded p-4 text-gray-800">
+          Design Systems
+        </div>
+      </div>
+
+      <div class="w-full sm:w-1/2 lg:w-1/5 mb-4 px-2">
+        <div class="hover:bg-white bg-gray-100 border-l-4 border-gray-400 hover:shadow-lg rounded p-4 text-gray-800">
+          HTML, CSS / Sass
+        </div>
+      </div>
+
+      <div class="w-full sm:w-1/2 lg:w-1/5 mb-4 px-2">
+        <div class="hover:bg-white bg-gray-100 border-l-4 border-gray-400 hover:shadow-lg rounded p-4 text-gray-800">
+          CSS Architecture
+        </div>
+      </div>
+
+      <div class="w-full sm:w-1/2 lg:w-1/5 mb-4 px-2">
+        <div class="hover:bg-white bg-gray-100 border-l-4 border-gray-400 hover:shadow-lg rounded p-4 text-gray-800">
+          Accessibility
+        </div>
+      </div>
+
+      <div class="w-full sm:w-1/2 lg:w-1/5 mb-4 px-2">
+        <div class="hover:bg-white bg-gray-100 border-l-4 border-gray-400 hover:shadow-lg rounded p-4 text-gray-800">
+          Performance
+        </div>
+      </div>
+
+      <div class="w-full sm:w-1/2 lg:w-1/5 mb-4 px-2">
+        <div class="hover:bg-white bg-gray-100 border-l-4 border-gray-400 hover:shadow-lg rounded p-4 text-gray-800">
+          Typography
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+</div><!--container//-->
+
+<footer class="bg-gray-400 p-4 mt-8">
+  <div class="container flex ml-auto mr-auto text-gray-700 p-4">
+    <div class="w-3/5">
+      <p class="mb-4">Mike Kivikoski is a remote Product Designer that helps teams solve the difficult problems in enterprise software.
+        He works with teams to design and build accessible products in an iterative process. His favorite food is a slice of pepperoni pizza. 
+      </p>
+      <p class="text-sm">
+        This site is built in static HTML, using TailwindCSS, and is hosted via GitHub Pages. Keeping it Simple.
+        <a href="https://github.com/mkivikoski/mkivikoski" title="View this website's git repo" class="text-gray-700 underline hover:no-underline">Issues and PRs welcome, or just look at the history of the site and it&rsquo;s design process.</a>
+      </p>
+    </div>
+
+    <div class="w-1/5 ml-auto">
+      <h3 class="text-sm font-bold uppercase text-gray-700 mb-1">Get in touch</h3>
+      <ul class="mb-4">
+        <li><a href="https://twitter.com/mkivikoski" title="Follow Mike on twitter" class="hover:underline">Twitter</a></li>
+        <li><a href="https://github.com/mkivikoski/" title="View Mike's github profile" class="hover:underline">Github</a></li>
+        <li><a href="https://dribbble.com/mkivikoski" title="See Mike's work in progress" class="hover:underline">Dribbble</a></li>
+        <li><a href="https://medium.com/@mikekivikoski" title="Read some of Mike's thoughts" class="hover:underline">Medium</a></li>
+        <li><a href="mailto:mikekivikoski@gmail.com" title="Get in touch with Mike to chat" class="hover:underline">Email</a></li>
       </ul>
-    </section>
+    </div>
+  </div>
+</footer>
 
-    <section class="notification-📬">
-      <p>My second child  was born in early 2016, and time outside of work has been used for family time. This is why you&rsquo;ll notice a decrease in my writing and speaking content since then. 👨‍👩‍👦‍👦 </p>
-    </section>
-
-    <footer>
-      <h3>Get in touch</h3>
-      <ul>
-        <li><a href="https://twitter.com/mkivikoski" title="Follow Mike on twitter">Twitter &mdash; @mkivikoski</a></li>
-        <li><a href="https://github.com/mkivikoski/" title="View Mike's github profile">Github &mdash; mkivikoski</a></li>
-        <li><a href="https://dribbble.com/mkivikoski" title="See Mike's work in progress">Dribbble &mdash; mkivikoski</a></li>
-        <li><a href="https://medium.com/@mikekivikoski" title="Read some of Mike's thoughts">Medium &mdash; @mikekivikoski</a></li>
-        <li><a href="mailto:mikekivikoski@gmail.com" title="Get in touch with Mike to chat">Email &mdash; mikekivikoski@gmail.com</a></li>
-      </ul>
-
-
-      <p><a href="https://github.com/mkivikoski/mkivikoski" title="View this website's git repo">Issues and PRs welcome, or just look at the history of the site and it&rsquo;s design process.</a></p>
-    </footer>
-  </main>
 </body>
 
 </html>
